@@ -1,0 +1,2 @@
+﻿  Connect-AzureRmAccount 
+  New-AzureRmResourceGroupDeployment -ResourceGroupName "Brajesh-rg" -TemplateFile "C:\Templates\azuredeploy.json" -TemplateParameterFile "C:\Templates\azuredeploy.parameters.json"
